@@ -1,6 +1,7 @@
 # Reproduction: field `access.update` inside a nested array wipes the stored value on a partial update (Payload 3.89.0)
 
 **Start with [REPRO.md](REPRO.md)**: the steps, the failing tests, the cause and a verified fix.
+Upstream issue: [payloadcms/payload#18415](https://github.com/payloadcms/payload/issues/18415).
 
 This is Payload's blank template (`create-payload-app@3.89.0 -t blank`, SQLite) plus one collection,
 [`src/collections/Docs.ts`](src/collections/Docs.ts), and one test file,
